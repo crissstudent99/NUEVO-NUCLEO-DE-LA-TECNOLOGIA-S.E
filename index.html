@@ -512,7 +512,7 @@ function attemptLogin() {
   const pass = $('#loginPass').value;
   const err = $('#loginErr');
   // Credenciales solicitadas por el usuario 
-  if (email === 'homework.criss@gmail.com' && pass === 'ERP1200N') {
+if (email === 'homework.criss@gmail.com' && pass === 'ERP1200N') {
     $('#loginScreen').style.display = 'none';
     document.querySelector('.app').classList.remove('collapsed');
     flash('Sesión iniciada correctamente. Bienvenido al sistema ERP.');
